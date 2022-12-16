@@ -5,65 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Pengalaman</title>
+    <link rel="stylesheet" type="text/css" href="style portofolio.css">
+    <style>
+        table, td, th{
+            border: 1px solid;
+            padding: 4px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .paragraph {
+            color: black;
+        }
+        .nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: rosybrown;
+        }
+
+        .nav li {
+          float: left;
+        }
+
+        .nav li a {
+         display: block;
+         color: black;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Biodata</a></li>
+            <li><a href="">Portofolio</a></li>
+        </ul>
+    </div>
     
-    <!-- judul -->
-    <h1>Tabel A</h1>
-    
-    <form>
-        <p>Nama</p>
-        <input type="text" name="nama" placeholder="enter your name">
-        <p>Domisili :</p>
-        <input type="radio" name="Domisili" id="Chiangmai">
-        <label for="Chiangmai">Chiangmai</label>
-        <input type="radio" name="Domisili" id="Bangkok">
-        <label for="Bangkok">Bangkok</label>
-        <input type="radio" name="Domisili" id="Hat Yai">
-        <label for="Hat Yai">Hat Yai</label>
-        <p> Hobi :</p>
-        <input type="checkbox" name="Hobi" id="Menggambar">
-        <label for="Menggambar">Menggambar</label>
-        <input type="checkbox" name="Hobi" id="Olahraga">
-        <label for="Olahraga">Olahraga</label>
-        <input type="checkbox" name="Hobi" id="Menyanyi">
-        <label for="Menyanyi">Menyanyi</label>
-        <div>
-            <input type="submit" value="Kirim">
-            <input type="reset" value="reset">
-        </div>
+<h1>Tabel A</h1>
+<form>
+    <p>Nama</p>
+    <input type="text" name="nama" placeholder="enter your name">
+    <p>Domisili :</p>
+    <input type="radio" name="Domisili" id="Chiangmai">
+    <label for="Chiangmai">Chiangmai</label>
+    <input type="radio" name="Domisili" id="Bangkok">
+    <label for="Bangkok">Bangkok</label>
+    <input type="radio" name="Domisili" id="Hat Yai">
+    <label for="Hat Yai">Hat Yai</label>
+    <p> Hobi :</p>
+    <input type="checkbox" name="Hobi" id="Menggambar">
+    <label for="Menggambar">Menggambar</label>
+    <input type="checkbox" name="Hobi" id="Olahraga">
+    <label for="Olahraga">Olahraga</label>
+    <input type="checkbox" name="Hobi" id="Menyanyi">
+    <label for="Menyanyi">Menyanyi</label>
         
-    </form>
+    <p> <input type="submit" value="kirim"> <input type="reset" value="reset"> </p>
+        
+</form>
 
 
-    <br>
-    
-    <!-- 
-        //No, Nama, Domisili
-     -->
-     
-    <table border="2">
-        <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>Domisili</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Wichapas</td>
-            <td>Chiangmai</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Worakamon</td>
-            <td>Bangkok</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Thitipoom</td>
-            <td>Hat Yai</td>
-        </tr>
-     </table>
+<br>
+<h2>Tabel Domisili<h2> 
+ <table border="2">
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Domisili</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Wichapas</td>
+        <td>Chiangmai</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Worakamon</td>
+        <td>Bangkok</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Thitipoom</td>
+        <td>Hat Yai</td>
+    </tr>
+ </table>
 
 </body>
 </html>
